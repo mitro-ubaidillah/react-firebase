@@ -28,11 +28,10 @@
     "sort-imports": [
       "error",
       {
-        "ignoreCase": false,
-        "ignoreDeclarationSort": false,
+        "ignoreCase": true,
+        "ignoreDeclarationSort": true,
         "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
-        "allowSeparatedGroups": false
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
       }
     ],
     "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
