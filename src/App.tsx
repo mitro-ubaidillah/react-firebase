@@ -7,6 +7,7 @@ const App: React.FC = () => {
   return (
     <>
       <h1>Test Auto Deploy with Firebase</h1>
+      <h3>Hello World!!!</h3>
       <div className='card'>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
